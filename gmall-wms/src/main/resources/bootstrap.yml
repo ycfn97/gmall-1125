@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: wms-service
+  cloud:
+    nacos:
+      config:
+        server-addr: hadoop04:8848
+        namespace: 82e97d78-e841-44e0-91ad-26181f65064f
+        group: dev
+        file-extension: yml  # 默认找服务名.properties文件
